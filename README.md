@@ -2,6 +2,6 @@
  
  👀 I’m interested in programming: Websites, Flutter apps, Robots
  
- 🌱 I’m currently learning: Python, Javascript, C, C++, Dart
+ 🌱 I’m currently learning: Python, Javascript, C, Dart, Java
  
  📫 How to reach me http://joelleimbacher.tech/
