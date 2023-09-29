@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=jl115" alt="jl115" /></a> </p>
 
-- 👨‍💻 All of my projects are available at [joelleimbacher.tech](joelleimbacher.tech)
+- 👨‍💻 All of my projects are available at https://joelleimbacher.tech
 
 - 💬 Ask me about **java, kotlin, c++**
 
