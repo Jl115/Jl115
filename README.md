@@ -5,3 +5,9 @@
  🌱 I’m currently learning: Python, Javascript, C, Dart, Java, Ruby, Ruby on Rails, Kotlin
  
  📫 How to reach me http://joelleimbacher.tech/
+
+<p align="center">
+  <a href="https://github.com/alsiam">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jl115&theme=radical" alt="Al Siam's GitHub Contribution"/>
+  </a>
+</p>
