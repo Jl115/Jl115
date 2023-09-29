@@ -6,8 +6,9 @@
  
  📫 How to reach me http://joelleimbacher.tech/
 
-<p align="center">
-  <a href="https://github.com/alsiam">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jl115&theme=radical" alt="Al Siam's GitHub Contribution"/>
+<p align="center" >
+<a href="https://github.com/anuraghazra/github-readme-stats"> 
+    <img  src="https://github-readme-stats.vercel.app/api?username=Jl115&&show_icons=true&theme=radical"/>
   </a>
+
 </p>
