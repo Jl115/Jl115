@@ -23,7 +23,7 @@
 
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=jl115&show_icons=true&locale=en&layout=compact" alt="jl115" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jl115&show_icons=true&locale=en" alt="jl115" /></p>
+<p align="center">&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=jl115&show_icons=true&locale=en" alt="jl115" /></p>
 
 
 
