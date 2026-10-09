@@ -1,13 +1,15 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=900&color=89B4FA&center=true&vCenter=true&width=800&lines=Full-Stack+Engineer+%C2%B7+TypeScript+%C2%B7+Vue+%C2%B7+Flutter;Systems-curious+%C2%B7+Rust+%2B+C;I+build+things+end-to-end;Always+shipping." alt="Typing SVG" />
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/hero.svg" alt="Joël Leimbacher — Full Stack Software Engineer" width="100%" />
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=800&color=7C3AED&center=true&vCenter=true&width=700&lines=Full+Stack+Engineer;Node.js+%C2%B7+Vue+%C2%B7+Flutter+%C2%B7+Rust;From+plumber+to+systems+builder;Architecture+%E2%86%92+rollout%2C+end+to+end" alt="Typing SVG" />
+
+<a href="https://joelleimbacher.tech"><img src="https://img.shields.io/badge/Portfolio-joelleimbacher.tech-7c3aed?style=flat-square&logo=firefox&logoColor=cbd5e1&labelColor=0f172a" alt="Portfolio"/></a>
+<a href="mailto:joeel.leimbacher+work@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-4f46e5?style=flat-square&logo=gmail&logoColor=cbd5e1&labelColor=0f172a" alt="Email"/></a>
+<img src="https://img.shields.io/badge/Location-Bern%2C%20Switzerland-0891b2?style=flat-square&logo=googlemaps&logoColor=cbd5e1&labelColor=0f172a" alt="Location"/>
+<img src="https://komarev.com/ghpvc/?username=jl115&color=7c3aed&style=flat-square&label=PROFILE+VIEWS" alt="Profile views"/>
 
 ### Hi 👋 I'm Joël
-
-<a href="https://joelleimbacher.tech"><img src="https://img.shields.io/badge/Portfolio-joelleimbacher.tech-89b4fa?style=flat-square&logo=firefox&logoColor=cdd6f4&labelColor=1e1e2e" alt="Portfolio"/></a>
-<a href="mailto:joeel.leimbacher+work@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-cba6f7?style=flat-square&logo=gmail&logoColor=cdd6f4&labelColor=1e1e2e" alt="Email"/></a>
-<img src="https://img.shields.io/badge/Location-Switzerland-a6e3a1?style=flat-square&logo=googlemaps&logoColor=cdd6f4&labelColor=1e1e2e" alt="Location"/>
-<img src="https://komarev.com/ghpvc/?username=jl115&color=89b4fa&style=flat-square&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
@@ -15,7 +17,31 @@
 
 ### 🧭 About
 
-Full-stack engineer who loves owning products end-to-end — from TypeScript backends and Vue frontends to Flutter mobile apps and the Docker/CI underneath them. Currently exploring low-level systems (Rust + C) on the side. I care about clean architecture, modular design, and shipping.
+Full Stack Software Engineer who owns products end-to-end — from system architecture to rollout. I specialize in **Node.js, Vue.js, and Flutter**, build high-performance microservices, and chase clean code that delivers real value. I started as a plumber and rebuilt my career from the ground up. 🛠️ → 💻
+
+---
+
+### 🧗 The Journey
+
+```mermaid
+timeline
+    title From pipes to production
+    2021 : Plumber (EFZ) — Loder AG : independent projects, client support
+    2022 : App Development Specialist (EFZ) — Computer School Bern
+    2024 : Full-Stack Engineer Intern — EvoSys AG : Flutter/Dart, Vue/Node, QA
+    2025 : Full-Stack Engineer — EvoSys AG : SpotPilot, Argus, Rust/C++ routing, mentoring
+```
+
+---
+
+### 📈 Impact
+
+| Metric | Result | How |
+| --- | --- | --- |
+| System Efficiency | **+30%** | microservices optimization |
+| Fleet Downtime | **−20%** | via Argus (GPS infra) |
+| GPS Processing | **40%** | faster server data processing |
+| Code Quality | **+25%** | led code reviews |
 
 ---
 
@@ -23,10 +49,10 @@ Full-stack engineer who loves owning products end-to-end — from TypeScript bac
 
 ```mermaid
 flowchart LR
-    L["Languages<br/>TS · JS · Rust · C · Python · Dart"] --> B["Backend<br/>Node/Express · Spring · GraphQL"]
-    L --> F["Frontend<br/>Vue · Angular · Tailwind"]
+    L["Languages<br/>TS · JS · Dart · Python · Rust · C++ · Java/Kotlin"] --> B["Backend<br/>Node · NestJS · Spring Boot"]
+    L --> F["Frontend<br/>Vue · Tailwind"]
     L --> M["Mobile<br/>Flutter"]
-    B --> I["Infra<br/>Docker · Kubernetes · Linux · CI"]
+    B --> I["Infra<br/>Docker · Kubernetes · PostgreSQL · Git"]
     F --> I
     M --> I
     I --> P["Shipped products"]
@@ -36,17 +62,17 @@ flowchart LR
 
 ### 🛠️ Tech Stack
 
-<img src="https://skillicons.dev/icons?i=c,cpp,rust,python,java,kotlin,swift,dart,ruby,lua,javascript,typescript,vue,angular,tailwind,sass,vite,webpack,babel,flutter,nodejs,express,spring,graphql,postgresql,linux,apple,docker,kubernetes,git,neovim,vscode,xcode,raspberrypi&theme=dark&perline=13" alt="Tech stack" />
+<img src="https://skillicons.dev/icons?i=ts,js,dart,python,rust,cpp,java,kotlin,nodejs,nestjs,vue,flutter,spring,tailwind,postgresql,docker,kubernetes,git,linux&theme=dark&perline=10" alt="Tech stack" />
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Featured Builds
 
 | Project | What it is | Stack |
 | --- | --- | --- |
-| **argus** | Tracker/IoT data backend — architecture, connectors, stateless sockets | TypeScript · Node |
+| **SpotPilot** | Navigation & dispatch platform — full-stack Mobile/Web/Backend | Flutter · Vue · Node · Docker/K8s |
+| **Argus** | GPS infrastructure & tracking backend — containerized server arch, Teltonika/Queclink connectors | TypeScript · Node |
 | **aare-temp-menubar** | Live Aare river temperature in the macOS menubar (`brew tap jl115/aare`) | Python · macOS |
-| **portfolio** | Personal site | Vue · TypeScript |
 
 ---
 
@@ -54,21 +80,29 @@ flowchart LR
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=jl115&show_icons=true&count_private=true&title_color=89b4fa&text_color=cdd6f4&icon_color=cba6f7&bg_color=1e1e2e&hide_border=true" alt="GitHub stats"/>
-<img height="180em" src="https://streak-stats.demolab.com?user=jl115&background=1e1e2e&border=89b4fa&stroke=89b4fa&ring=cba6f7&fire=cba6f7&currStreakNum=cdd6f4&currStreakLabel=89b4fa&sideNums=cdd6f4&sideLabels=cdd6f4&dates=cdd6f4&hide_border=true" alt="Streak"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api?username=jl115&show_icons=true&count_private=true&title_color=7c3aed&text_color=cbd5e1&icon_color=0891b2&bg_color=0f172a&hide_border=true" alt="GitHub stats"/>
+<img height="165em" src="https://streak-stats.demolab.com?user=jl115&background=0f172a&border=7c3aed&stroke=7c3aed&ring=4f46e5&fire=0891b2&currStreakNum=cbd5e1&currStreakLabel=0891b2&sideNums=cbd5e1&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="Streak"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jl115&langs_count=10&layout=compact&title_color=89b4fa&text_color=cdd6f4&icon_color=cba6f7&bg_color=1e1e2e&hide_border=true&custom_title=Top%20Languages" alt="Top languages"/>
+<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jl115&langs_count=10&layout=compact&title_color=7c3aed&text_color=cbd5e1&icon_color=0891b2&bg_color=0f172a&hide_border=true&custom_title=Top%20Languages" alt="Top languages"/>
 
-<img src="https://github-trophies.vercel.app/?username=jl115&theme=catppuccin_mocha&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies"/>
+<img src="https://github-trophies.vercel.app/?username=jl115&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jl115&theme=github_dark" alt="Profile summary"/>
 
 </div>
 
 ---
 
-### 📈 Contribution Activity
+### 🎓 Certifications & Languages
 
 <div align="center">
-<img src="https://activity-graph.vercel.app/graph?username=jl115&bg_color=1e1e2e&color=89b4fa&line=cba6f7&point=cdd6f4&area=true&hide_border=true&custom_title=Contribution%20Activity" alt="Activity graph"/>
+
+<img src="https://img.shields.io/badge/CS50X-Harvard-A51C30?style=flat-square&labelColor=0f172a" alt="CS50X Harvard"/>
+<img src="https://img.shields.io/badge/Java%20Foundations-JetBrains-7c3aed?style=flat-square&logo=jetbrains&labelColor=0f172a" alt="JetBrains Java"/>
+<img src="https://img.shields.io/badge/German-Native-4f46e5?style=flat-square&labelColor=0f172a" alt="German"/>
+<img src="https://img.shields.io/badge/English-C1-0891b2?style=flat-square&labelColor=0f172a" alt="English"/>
+<img src="https://img.shields.io/badge/French-B1-7c3aed?style=flat-square&labelColor=0f172a" alt="French"/>
+
 </div>
 
 ---
@@ -79,6 +113,6 @@ flowchart LR
 
 <a href="https://www.github.com/jl115"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub"/></a>
 <a href="https://www.linkedin.com/in/joel-leimbacher-4a64b1257"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" alt="LinkedIn"/></a>
-<a href="https://joelleimbacher.tech"><img src="https://cdn.simpleicons.org/firefox/89b4fa" width="32" height="32" alt="Portfolio"/></a>
+<a href="https://joelleimbacher.tech"><img src="https://cdn.simpleicons.org/firefox/7c3aed" width="32" height="32" alt="Portfolio"/></a>
 
 </div>
