@@ -79,7 +79,7 @@
     </text>
     <text x="384" y="309" font-family="'Fira Code',monospace" font-size="13" fill="#cdd6f4" opacity="0">
       <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;0.2;0.3;1" dur="6s" repeatCount="indefinite"/>
-      &gt; status: shipping SpotPilot · Argus
+      &gt; status: building &amp; shipping systems
     </text>
   </g>
 

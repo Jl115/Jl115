@@ -15,16 +15,6 @@
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/SpotPilot-cba6f7?style=for-the-badge&labelColor=1e1e2e" alt="SpotPilot"/>
-<img src="https://img.shields.io/badge/Argus-89b4fa?style=for-the-badge&labelColor=1e1e2e" alt="Argus"/>
-<img src="https://img.shields.io/badge/aare--temp--menubar-74c7ec?style=for-the-badge&labelColor=1e1e2e" alt="aare-temp-menubar"/>
-
-</div>
-
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
-
 ### 🧭 About
 
 Full Stack Software Engineer who owns products end-to-end — from system architecture to rollout. I specialize in **Node.js, Vue.js, and Flutter**, build high-performance microservices, and chase clean code that delivers real value. I started as a plumber and rebuilt my career from the ground up. 🛠️ → 💻
@@ -39,21 +29,10 @@ timeline
     2021 : Plumber (EFZ) — Loder AG : independent projects, client support
     2022 : App Development Specialist (EFZ) — Computer School Bern
     2024 : Full-Stack Engineer Intern — EvoSys AG : Flutter/Dart, Vue/Node, QA
-    2025 : Full-Stack Engineer — EvoSys AG : SpotPilot, Argus, Rust/C++ routing, mentoring
+    2025 : Full-Stack Engineer — EvoSys AG : Rust/C++ routing, mentoring
 ```
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
-
-### 📈 Impact
-
-| Metric | Result | How |
-| --- | --- | --- |
-| System Efficiency | **+30%** | microservices optimization |
-| Fleet Downtime | **−20%** | via Argus (GPS infra) |
-| GPS Processing | **40%** | faster server data processing |
-| Code Quality | **+25%** | led code reviews |
-
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
 
 ### 🗺️ How I Build
 
@@ -78,10 +57,8 @@ flowchart LR
 
 ### 🚀 Featured Builds
 
-| Project | What it is | Stack |
-| --- | --- | --- |
-| **SpotPilot** | Navigation & dispatch platform — full-stack Mobile/Web/Backend | Flutter · Vue · Node · Docker/K8s |
-| **Argus** | GPS infrastructure & tracking backend — containerized server arch, Teltonika/Queclink connectors | TypeScript · Node |
+| Project               | What it is                                                               | Stack          |
+| --------------------- | ------------------------------------------------------------------------ | -------------- |
 | **aare-temp-menubar** | Live Aare river temperature in the macOS menubar (`brew tap jl115/aare`) | Python · macOS |
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
