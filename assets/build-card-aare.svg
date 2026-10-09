@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 180" width="100%" height="180" role="img" aria-label="Build card: aare-temp-menubar, live Aare river temperature in the macOS menubar">
+  <defs>
+    <linearGradient id="aareBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#11111b"/>
+    </linearGradient>
+    <linearGradient id="aareAurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cba6f7"/>
+      <stop offset="50%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#74c7ec"/>
+    </linearGradient>
+    <linearGradient id="aareTitle" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cba6f7"/>
+      <stop offset="50%" stop-color="#89b4fa"/>
+      <stop offset="100%" stop-color="#74c7ec"/>
+    </linearGradient>
+    <filter id="aareGlow" x="-40%" y="-120%" width="180%" height="340%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="560" height="180" rx="16" fill="url(#aareBg)"/>
+  <rect x="1" y="1" width="558" height="178" rx="15" fill="none" stroke="#cba6f7" stroke-width="1.5"/>
+  <rect x="1" y="1" width="558" height="178" rx="15" fill="none" stroke="url(#aareAurora)" stroke-width="1.5" opacity="0.5"/>
+
+  <path d="M0,150 C90,124 180,164 280,142 C380,120 470,160 560,140 L560,180 L0,180 Z" fill="url(#aareAurora)" opacity="0.22">
+    <animateTransform attributeName="transform" type="translate" values="0,0; -40,4; 0,0" dur="14s" repeatCount="indefinite"/>
+  </path>
+
+  <g filter="url(#aareGlow)">
+    <text x="34" y="46" font-family="'Segoe UI','Fira Code',monospace" font-size="22" font-weight="800" letter-spacing="1" fill="url(#aareTitle)">aare-temp-menubar</text>
+  </g>
+
+  <text x="34" y="76" font-family="'Segoe UI','Fira Code',monospace" font-size="13" fill="#cdd6f4">Live Aare river temperature in the macOS menubar</text>
+
+  <g font-family="'Segoe UI','Fira Code',monospace" font-size="11">
+    <rect x="34" y="92" width="74" height="20" rx="10" fill="#313244" stroke="#45475a"/>
+    <text x="71" y="106" text-anchor="middle" fill="#94e2d5">Python</text>
+    <rect x="114" y="92" width="62" height="20" rx="10" fill="#313244" stroke="#45475a"/>
+    <text x="145" y="106" text-anchor="middle" fill="#fab387">macOS</text>
+  </g>
+
+  <g font-family="'Segoe UI','Fira Code',monospace" font-size="12">
+    <rect x="34" y="124" width="228" height="28" rx="8" fill="#11111b" stroke="#45475a"/>
+    <text x="46" y="142" fill="#cba6f7">$</text>
+    <text x="58" y="142" fill="#cdd6f4">brew tap jl115/aare</text>
+    <rect x="176" y="132" width="8" height="12" fill="#94e2d5">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <ellipse cx="480" cy="46" rx="46" ry="34" fill="#89b4fa" opacity="0.14">
+    <animate attributeName="opacity" values="0.1;0.22;0.1" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <text x="480" y="54" text-anchor="middle" font-family="'Segoe UI','Fira Code',monospace" font-size="24" font-weight="700" fill="#74c7ec">°C</text>
+</svg>

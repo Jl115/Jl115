@@ -15,13 +15,13 @@
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
 
-### 🧭 About
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/section-about.svg" alt="About" width="100%">
 
 Full Stack Software Engineer who owns products end-to-end — from system architecture to rollout. I specialize in **Node.js, Vue.js, and Flutter**, build high-performance microservices, and chase clean code that delivers real value. I started as a plumber and rebuilt my career from the ground up. 🛠️ → 💻
 
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
 
-### 🧗 The Journey
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/section-journey.svg" alt="Journey" width="100%">
 
 ```mermaid
 timeline
@@ -32,7 +32,7 @@ timeline
     2025 : Full-Stack Engineer — EvoSys AG : Rust/C++ routing, mentoring
 ```
 
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
 
 ### 🗺️ How I Build
 
@@ -49,47 +49,53 @@ flowchart LR
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
 
-### 🛠️ Tech Stack
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/section-stack.svg" alt="Stack" width="100%">
 
 <img src="https://skillicons.dev/icons?i=ts,js,dart,python,rust,cpp,java,kotlin,nodejs,nestjs,vue,flutter,spring,tailwind,postgresql,docker,kubernetes,git,linux&theme=dark&perline=10" alt="Tech stack" />
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
 
-### 🚀 Featured Builds
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/section-stats.svg" alt="Stats" width="100%">
 
-| Project               | What it is                                                               | Stack          |
-| --------------------- | ------------------------------------------------------------------------ | -------------- |
-| **aare-temp-menubar** | Live Aare river temperature in the macOS menubar (`brew tap jl115/aare`) | Python · macOS |
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/jl115/jl115/output/profile-3d-contrib/profile-night-view.svg" alt="3D contribution graph" width="100%">
+
+<img src="https://raw.githubusercontent.com/jl115/jl115/output/metrics.base.svg" alt="GitHub metrics" width="49%">
+<img src="https://raw.githubusercontent.com/jl115/jl115/output/metrics.languages.svg" alt="Most used languages" width="49%">
+
+</div>
 
 <div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
 
-### 🐍 Contribution Graph
+<div align="center">
 
-<!-- Snake appears after the first run of the Generate Snake workflow -->
+<img src="https://raw.githubusercontent.com/jl115/jl115/output/metrics.achievements.svg" alt="Achievements" width="49%">
+<img src="https://raw.githubusercontent.com/jl115/jl115/output/metrics.activity.svg" alt="Activity" width="49%">
+
+</div>
+
+<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/Jl115/Jl115/output/snake.svg" alt="Contribution snake" width="100%" />
 
 </div>
 
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
 
-### 📊 GitHub Stats
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/section-builds.svg" alt="Featured builds" width="100%">
 
 <div align="center">
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=jl115&show_icons=true&count_private=true&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e&hide_border=true" alt="GitHub stats"/>
-<img height="165em" src="https://streak-stats.demolab.com?user=jl115&background=1e1e2e&border=cba6f7&stroke=cba6f7&ring=89b4fa&fire=74c7ec&currStreakNum=cdd6f4&currStreakLabel=74c7ec&sideNums=cdd6f4&sideLabels=cdd6f4&dates=cdd6f4&hide_border=true" alt="Streak"/>
+<a href="https://github.com/jl115/aare-temp-menubar"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/build-card-aare.svg" alt="aare-temp-menubar" width="100%"></a>
 
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jl115&langs_count=10&layout=compact&title_color=cba6f7&text_color=cdd6f4&icon_color=89b4fa&bg_color=1e1e2e&hide_border=true&custom_title=Top%20Languages" alt="Top languages"/>
-
-<img src="https://github-trophies.vercel.app/?username=jl115&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Trophies"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=jl115&theme=github_dark" alt="Profile summary"/>
+**aare-temp-menubar** — live Aare river temperature in the macOS menubar (`brew tap jl115/aare`). Stack: Python · macOS.
 
 </div>
 
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-wave.svg" alt="" width="100%" /></div>
+<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
 
 ### 🎓 Certifications & Languages
 
@@ -103,9 +109,7 @@ flowchart LR
 
 </div>
 
-<div align="center"><img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/divider-beam.svg" alt="" width="100%" /></div>
-
-### 🔗 Connect
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/section-connect.svg" alt="Connect" width="100%">
 
 <div align="center">
 
@@ -114,3 +118,5 @@ flowchart LR
 <a href="https://joelleimbacher.tech"><img src="https://cdn.simpleicons.org/firefox/cba6f7" width="32" height="32" alt="Portfolio"/></a>
 
 </div>
+
+<img src="https://raw.githubusercontent.com/jl115/jl115/main/assets/footer-signature.svg" alt="Joël Leimbacher — Bern, Switzerland" width="100%">
