@@ -20,14 +20,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+      - name: Ensure output branch
+        run: git ls-remote --exit-code --heads origin output || git push origin HEAD:output
       - name: Metrics base
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: output
           user: Jl115
           filename: output/metrics.base.svg
           template: classic
           base: header, activity, community, repositories, metadata
+          plugins_errors_fatal: false
           config_display: large
           config_timezone: Europe/Zurich
           background: "#1e1e2e"
@@ -38,7 +43,9 @@ jobs:
       - name: Metrics languages
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: output
           user: Jl115
           filename: output/metrics.languages.svg
           template: classic
@@ -46,6 +53,7 @@ jobs:
           config_display: large
           config_timezone: Europe/Zurich
           config_order: languages, metadata
+          plugins_errors_fatal: false
           background: "#1e1e2e"
           title_color: "#cba6f7"
           text_color: "#cdd6f4"
@@ -58,13 +66,16 @@ jobs:
       - name: Metrics achievements
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: output
           user: Jl115
           filename: output/metrics.achievements.svg
           template: classic
           base: ""
           config_display: large
           config_timezone: Europe/Zurich
+          plugins_errors_fatal: false
           background: "#1e1e2e"
           title_color: "#cba6f7"
           text_color: "#cdd6f4"
@@ -77,13 +88,16 @@ jobs:
       - name: Metrics activity
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_branch: output
           user: Jl115
           filename: output/metrics.activity.svg
           template: classic
           base: ""
           config_display: large
           config_timezone: Europe/Zurich
+          plugins_errors_fatal: false
           background: "#1e1e2e"
           title_color: "#cba6f7"
           text_color: "#cdd6f4"
@@ -93,11 +107,4 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_days: 14
           plugin_activity_filter: issue, pr, release, commit
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: output
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
